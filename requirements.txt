@@ -1,0 +1,30 @@
+# 3ḌƁ★ŔÒØṬ - UTOPIA-EDU Requirements
+# Python 3.8+
+
+# Deep Learning & Transformers
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+
+# Graph & Network Analysis
+networkx>=3.0
+
+# Vector Database
+qdrant-client>=1.7.0
+
+# OpenAI Integration
+openai>=1.0.0
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Optional: Advanced Features
+# sentence-transformers>=2.2.0  # For better embeddings
+# langchain>=0.1.0  # For advanced LLM chains
+# chromadb>=0.4.0  # Alternative vector database

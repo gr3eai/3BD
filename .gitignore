@@ -1,0 +1,77 @@
+# 3ḌƁ★ŔÒØṬ System - Git Ignore
+
+# Environment and secrets
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Cache
+cache/
+.cache/
+*.cache
+
+# Backups
+backups/
+*.bak
+*.backup
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# AI models (too large for git)
+ai/models/*.bin
+ai/models/*.pt
+ai/models/*.pth
+ai/vectors/*.bin
+
+# User data
+data/*.json
+!data/example.json

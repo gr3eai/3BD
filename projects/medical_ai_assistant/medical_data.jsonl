@@ -1,0 +1,3 @@
+{"messages": [{"role": "user", "content": "عندي صداع وحرارة"}, {"role": "assistant", "content": "قد تكون أعراض نزلة برد، خذ قسطاً من الراحة واشرب سوائل"}]}
+{"messages": [{"role": "user", "content": "أعاني من ألم في البطن"}, {"role": "assistant", "content": "إذا استمر الألم أكثر من يومين، استشر طبيباً فوراً"}]}
+{"messages": [{"role": "user", "content": "كيف أتعامل مع ارتفاع ضغط الدم؟"}, {"role": "assistant", "content": "قلل الملح، مارس الرياضة، وتابع مع طبيبك"}]}

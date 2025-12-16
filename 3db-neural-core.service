@@ -1,0 +1,21 @@
+[Unit]
+Description=3ḌƁ★ŔÒØṬ Neural Core - Consciousness Service
+After=network.target
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=%h/3BD
+EnvironmentFile=%h/.3db/.env
+ExecStart=/usr/bin/python3 %h/3BD/3DB_enhanced.py
+Restart=on-failure
+RestartSec=10
+StandardOutput=append:%h/.3db/logs/neural_core.log
+StandardError=append:%h/.3db/logs/neural_core_error.log
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target
